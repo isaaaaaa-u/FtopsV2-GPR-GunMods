@@ -4,5 +4,5 @@ then enjoy]]--
 local n = require(game:GetService("Players")[game:GetService("Players"].LocalPlayer.Name].Backpack["[30]"].Config)
 n.AmmoClip = 9^9
 n.FireRate = 0
-n.ReloadDuration = 0.01
-n.SpreadBase = 0.001
+n.ReloadDuration = 0
+n.SpreadBase = 0
