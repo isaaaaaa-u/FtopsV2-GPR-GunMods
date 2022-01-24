@@ -1,5 +1,8 @@
-local n = require(game:GetService("Players")[game:GetService("Players").LocalPlayer.Name].Backpack.HAKR.GSSettings)
-n.Fire.FireRate = 0 
-n.Fire.Spread = 0 
-n.Fire.MaxAmmo = 9^9
-n.Fire.ReloadTime = 0 
+--[[ok so basically hold gun out then unequip gun, this makes it have '30' as its name ok
+then execute script
+then enjoy]]--
+local n = require(game:GetService("Players")[game:GetService("Players"].LocalPlayer.Name].Backpack["[30]"].Config)
+n.AmmoClip = 9^9
+n.FireRate = 0
+n.ReloadDuration = 0.01
+n.SpreadBase = 0.001
